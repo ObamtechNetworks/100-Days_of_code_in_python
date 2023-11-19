@@ -57,6 +57,6 @@ Here are some resources I find helpful during my 100 Days of Code challenge:
 Let's connect! Feel free to reach out, ask questions, or share your own coding journey:
 
 - GitHub: [Bamidele Michael Ipadeola](https://github.com/obamtechnetworks)
-- Twitter: [@yourtwitterhandle](https://twitter.com/_obamidele)
+- Twitter: [@Bamidele Michael](https://twitter.com/_obamidele)
 
 Happy coding!
