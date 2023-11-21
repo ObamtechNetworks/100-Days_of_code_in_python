@@ -55,6 +55,26 @@ print(("New lines can be created with a backslash and n.")
 - You can put functions inside other functions.
 - Don't try to print anything other than the length.
 
+4. #### Variables
+Instructions
+Write a program that switches the values stored in the variables a and b.
+
+*Warning. Do not change the code on lines 1-4 and 12-18. Your program should work for different inputs. e.g. any value of a and b.*
+
+*Example Input*
+`a: 3`
+`b: 5`
+
+*Example Output*
+`a: 5`
+`b: 3`
+
+```
+Hint
+You should not have to type any numbers in your code.
+You might need to make some more variables.
+```
+
 ## What I Learned Today
 #### About the Print function
 - How to Use it
@@ -85,6 +105,11 @@ Learnt about the python input function
 - How to use the python input function to receive input from user
 - How to use function inside functions
 
+#### Variables
+Also learnt about variables as being labels or containers for holding values
+- With variables we can use them to hold data
+- Variables can vary, means can be changed
+
 #### Also learnt about the Thonny
 This IDE is very handy and effective for debugging
 [Learn more here:  Thonny IDE](https://thonny.org/)
@@ -98,6 +123,16 @@ print("print('what to print')")
 
 ```
 print("Hello " + input("What is your name? "))
+```
+
+```
+'''variables'''
+name = input("Enter your name")
+print(name)
+
+# Getting the lenght of a string
+name = input("What is your name")
+print(len(name))
 ```
 # Resources
 - Angela Yu #100Daysofcode Course
