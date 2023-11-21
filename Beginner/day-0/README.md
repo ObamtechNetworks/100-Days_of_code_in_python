@@ -75,6 +75,28 @@ You should not have to type any numbers in your code.
 You might need to make some more variables.
 ```
 
+5. #### The Band name generator project
+
+```
+'''
+This is simple program that asks for user input based on some questions
+It then combines these responses from the user to coin a band name
+'''
+
+# 1. Create a greeting for your program.
+print("Hello welcome to our band name generator program")
+
+# 2. Ask the user for the city that they grew up in.
+city = input("What city did you grow up?\n")
+
+# 3. Ask the user for the name of a pet.
+pet = input("What is the name of your pet?\n")
+
+# 4. Combine the name of their city and pet and show them their band name.
+band_name = city + ' ' + pet
+print("The name of your band is: " + 
+```
+
 ## What I Learned Today
 #### About the Print function
 - How to Use it
@@ -109,6 +131,9 @@ Learnt about the python input function
 Also learnt about variables as being labels or containers for holding values
 - With variables we can use them to hold data
 - Variables can vary, means can be changed
+
+#### Created a cool project with variables and input function
+- The Band generator project
 
 #### Also learnt about the Thonny
 This IDE is very handy and effective for debugging
