@@ -27,10 +27,12 @@ two_digit_number = input("Type a two digit number: ")
 
 ####################################
 #Write your code below this line 👇
-a = two_digit_number[0]
-b = two_digit_number[1]
+a = int(two_digit_number[0])
+b = int(two_digit_number[1])
 
-print(int(a) + int(b))
+output = a + b
+print(output)
+
 
 
 
