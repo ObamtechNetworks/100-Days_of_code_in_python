@@ -1,4 +1,4 @@
-# day-0 Directory
+# day-1 Directory
 
 ## Introduction
 Welcome to Day 1 (counting from 0) of my Beginner journey in the 100 Days of Code in Python Challenge! This marks the second day of commitment to code for at least an hour every day and document my progress. Today, I'll be focusing on 
