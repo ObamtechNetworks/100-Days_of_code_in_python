@@ -32,6 +32,14 @@ Learning about the differnet math operators in Python
 2 ** 2
 '''
 
+
 # ALSO ENSURE TO BE AWARE OF PRIORITY OR ORDER OF PRIORITY AMONG OPERATORS
 # PEMDAS
+
+print(3 * 3 + 3 / 3 - 3)
+# OUTPUT - > 7
+
+# CHANGE CODE, INSTEAD OF GETTING 7, TO GET 3
+print(3 * 3 / 3 + 3 - 3)  # my answer
+print(3 * (3 + 3) / 3 - 3) # also works
 
