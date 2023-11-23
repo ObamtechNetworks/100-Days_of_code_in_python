@@ -18,7 +18,9 @@ Today's Goals
 - [F-strings]
 
 # [Tasks/Exercises]
-
+-  A program that adds the digits in a given two digit input value from user
+- BMI Calculator
+- Tip Calculator
 
 ## What I Learned Today
 #### 1.
