@@ -29,13 +29,16 @@ Tails
 # import the random module
 import random
 
-
+print("Welcome to the simple TOSS COIN GAME!")
 while True:
     head_or_tail = random.randint(0, 1)
-    user_input = int(input("\"Heads\" or \"Tails\"?\n'1 for Heads', '0 for Tails', 'exit/Enter key' to quit\n"))
+    user_input = input('Which do you choose? "1 for Heads" | "0 for Tails" | "exit/Enter key" to quit\n')
     
     if user_input == "exit" or user_input == '':
         break
+    
+    # convert user input to integer
+    user_input = int(user_input)
     if user_input == head_or_tail:
             print("")
             print(f"Great! You rock!-> {'Heads' if user_input == 1 else 'Tails'}\n")
