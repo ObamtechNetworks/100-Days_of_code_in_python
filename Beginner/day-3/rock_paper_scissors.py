@@ -54,7 +54,9 @@ scissors = '''
 import random
 import sys
 
-while True:
+playon = True
+while playon:
+    print("Welcome to ROCK PAPER SCISSORS GAME! TRY YOUR LUCK!")
     # get user's input
     user_input = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: ")
     # generate random integers
@@ -98,3 +100,11 @@ while True:
     	print("You win!")
     elif choice == 0 and computer == 1:
     	print("You lost!")
+    
+    # ask user if they want to continue playing
+    again = input('Do you want to play again? "Yes", "No": ').lower()
+    if again == "yes":
+        playon = True
+    else:
+        print("Have a great day!")
+        playon = False
