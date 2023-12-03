@@ -36,5 +36,3 @@ if direction == "encode":
     encrypt(plain_text=text, shift_amount=shift)
 elif direction == "decode":
     decrypt(plain_text=text, shift_amount=shift)
-else:
-    print("You entered an invalid input")
