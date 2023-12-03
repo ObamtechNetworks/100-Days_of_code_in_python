@@ -41,6 +41,7 @@ while game_on:
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
     keep_playing = input("Type 'yes' if you want to go again. Otherwise type 'no': ").lower()
     if keep_playing == "no":
+        print("Thank you for coming!...")
         game_on = False
     elif keep_playing == "yes":
         game_on = True
