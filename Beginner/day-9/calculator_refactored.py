@@ -40,23 +40,27 @@ def my_calculator():
     game_play = True
     
     while game_play:
-    # creat a variable that ask user for input
-    num1 = int(input("What's the first number?: "))
-    # ask user to pick an operation symbol
-    operator_symbol = input("Pick an operation from the line above: ")
-    num2 = int(input("What's the next number?: "))
-    
-    calc_function = operations[operator_symbol]
-    answer = calc_function(num1, num2)
-    print(f"{num1} {operator_symbol} {num2} = {answer}")
-    
-    calc_again = input(f"Type 'y' to continue with calculating with {answer}, or type 'new' to start afresh else 'x'  to exit.: ")
-    if calc_again == 'y':
-        num1 = answer
-        system('clear')
-    elif calc_again == 'new':
-        my_calculator()
-    elif calc_again = 'x':
-        game_play = False
-    else:
-        game_play = False
+        # creat a variable that ask user for input
+        num1 = float(input("What's the first number?: "))
+        # ask user to pick an operation symbol
+        operator_symbol = input("Pick an operation from the line above: ")
+        num2 = float(input("What's the next number?: "))
+        
+        calc_function = operations[operator_symbol]
+        answer = calc_function(num1, num2)
+        print(f"{num1} {operator_symbol} {num2} = {answer}")
+        
+        calc_again = input(f"Type 'y' to continue with calculating with {answer}, or type 'new' to start afresh else 'x'  to exit.: ")
+        if calc_again == 'y':
+            num1 = answer
+        elif calc_again == 'new':
+            system('clear')
+            game_play = False
+            my_calculator()
+        elif calc_again == 'x':
+            game_play = False
+        else:
+            break
+            
+# call function here
+my_calculator()
