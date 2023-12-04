@@ -48,8 +48,8 @@ def is_leap(year):
     # print("Not leap year.")
 
 def days_in_month(year, month):
-    if not year or not month or year is None or month is None:
-        return
+    if month > 12 or month < 1:
+        return "Invalid month input"
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     # call the is_leap function to check if the year passed in is a leap year
     if is_leap(year) == True:
