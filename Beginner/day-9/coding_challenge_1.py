@@ -52,12 +52,12 @@ def days_in_month(year, month):
   
   # call the is_leap function to check if the year passed in is a leap year
   if is_leap(year) == True:
-      if month == 1:
-          return month_days[month] + 1
+      if month == 2:
+          return month_days[month - 1] + 1
       else:
-          return month_days[month]
+          return month_days[month - 1]
   else:
-      return month_days[month]
+      return month_days[month - 1]
   
   
 #🚨 Do NOT change any of the code below 
